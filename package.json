@@ -1,0 +1,41 @@
+{
+  "name": "seravo-wordpress",
+  "version": "1.4.0",
+  "author": "Seravo Oy",
+  "homepage": "https://github.com/seravo/wordpress/",
+  "contributors": [
+    {
+      "name": "Seravo Oy",
+      "email": "help@seravo.com",
+      "url": "https://seravo.com"
+    }
+  ],
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wordpress/wordpress.git"
+  },
+  "scripts": {
+    "build": "composer install && gulp",
+    "test": "scripts/run-tests"
+  },
+  "bugs": {
+    "url": "https://github.com/seravo/wordpress/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.16",
+    "npm": ">=9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
+  }
+}
